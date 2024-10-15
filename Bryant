@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Futura+PT:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    <title>Fortfolio(Main)</title>
+</head>
+<body>
+    <div class="cont_container">
+        <h1>Bryant Macatangay</h1>
+        <h2>Fortfolio</h2>
+    </div>
+    <header>
+        <nav class="Menu">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#interests">Interests</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+</header>
+<section id="home">
+    <div class="profile">
+        <img src="gvnchi.png" alt="profile image">
+    <h1>Hi, I'm Bryant!</h1>
+    <h4>asdasdasdasd</h4>
+    </div>
+</section>
+<section id="interests">
+    <h2>Interests</h2>
+    <p>I have hight interest in the digital arts, I have honed my skills in various multimedia platforms. Intermidiate skills in video editing using Adobe Premiere and Capcut, where I bring stories to life with seamless cuts and transitions. In the realm of photo editing, Photoshop serves as my canvas, allowing me to enhance and manipulate images with precision. My fascination with the web's architecture led me to learning web design through HTML and CSS, crafting websites that are both aesthetically pleasing and useable. Additionally, my passion for gaming has found an outlet in creating engaging video content, capturing the excitement and dynamics of gameplay for an audience that shares my enthusiasm. These interests not only define my creative pursuits but also continuously drive me to explore, learn, and create in the ever-evolving landscape of digital media.</p>
+</section>
+<section id="projects">
+    <h2>Projects</h2>
+        <li>Thesis Project</li>
+        <li>Thesis Project</li>
+        <li>Thesis Project</li>
+        <li>Thesis Project</li>
+        <li>Thesis Project</li>
+    <p>Details of your projects.</p>
+</section>
+<section id="contact">
+    <h2>Contact</h2>
+    <p>How to reach you.</p>
+</section>
+
+<section id="socials">
+    <h2>Socials:</h2>
+    <div class="discord">
+        <a href="https://discord.com/users/:dabs5155"><img src="discord.png" alt="discord"></a>
+    </div>
+    <div class="tiktok">
+        <a href="https://www.tiktok.com/@rb_bryyy"><img src="tiktok.png" alt="tiktok"></a>
+    </div>
+    <div class="instagram">
+        <a href="https://www.instagram.com/rb_bryyy/"><img src="instagram (1).png" alt="instagram"></a>
+    </div>
+    <div class="email">
+        <a href= mailto: bryantmacatangay21@gmail.com><img src="apple.png" alt="instagram"></a>
+    </div>
+
+</section>
+
+    
+</body>
+</html>
