@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
 body {
     font-family: 'Futura PT', Arial, Helvetica, sans-serif;
     margin: 0;
@@ -19,6 +20,7 @@ img {
 .cont_container {
     color: #718355; /* Dark green */
     padding: 1rem;
+    position: center=;
     text-align: center;
     border-radius: 50px;
     width: 85%;
@@ -28,6 +30,10 @@ img {
     flex-wrap: nowrap;
 }
 
+.cont_container h1{
+    margin-bottom: 0cm;
+}
+
 .cont_container h2 {
     color: #97a97c; /* Medium-light green */
     text-align: center;
@@ -35,9 +41,12 @@ img {
     width: 90%;
     margin: 1rem auto;
     flex-wrap: nowrap;
+    margin-top: 0cm;
 }
 
 header {
+    font-family: 'Frutiger', Arial, Helvetica, sans-serif;
+    font-weight: bold;
     background-color: #87986a; /* Medium green */
     color: #e9f5db; /* Lightest green */
     padding: 1rem 0;
@@ -59,8 +68,21 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #e9f5db; /* Dark green */
+    color: #e9f5db; /* Lightest green */
     text-decoration: none;
+    padding: 0.3rem; /* Add some padding for better click area */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+    display: inline-block; /* Ensure the element is inline-block to prevent layout shifts */
+    position: relative; /* Position relative for the pop-out effect */
+}
+
+nav ul li a:hover {
+    background-color: #718355; /* Dark green */
+    color: #e9f5db; /* Lightest green */
+    border: #718355;
+    border-radius: 20px; /* Optional: Add rounded corners */
+    transform: scale(1.1);
+    z-index: 1; /* Ensure the hovered item is above others */
 }
 
 section {
@@ -110,6 +132,24 @@ section {
     margin: 1rem 0;
 }
 
+.video {
+    display: flex;
+    justify-content: center; /* Center the video horizontally */
+    align-items: center; /* Center the video vertically */
+    padding: 1rem;
+}
+
+/* Video styling */
+.video video {
+    width: 100%; /* Make the video take up the full width of its container */
+    max-width: 600px; /* Set a maximum width for the video */
+    height: auto; /* Maintain the aspect ratio */
+    border-radius: 20px; /* Optional: Add rounded corners */
+    box-shadow: 0 0 10px rgba(135, 152, 106, 0.5); /* Medium green with transparency */
+    background: rgba(255, 255, 255, 0.2); /* White with transparency */
+    backdrop-filter: blur(10px); /* Blur effect */
+}
+
 #socials {
     display: flex;
     justify-content: left;
@@ -138,7 +178,7 @@ section {
     }
 
     .cont_container {
-        width: 90%;
+        width: 80%;
     }
 }
 
