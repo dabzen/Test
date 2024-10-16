@@ -166,15 +166,15 @@ section {
 /* Media Queries for Responsiveness */
 @media (max-width: 768px) {
     header {
-        width: 90%;
+        width: 70%;
     }
 
     nav ul {
-        flex-direction: column;
+        flex-direction: row;
     }
 
     nav ul li {
-        margin: 0.5rem 0;
+        margin: 1px 2px;
     }
 
     .cont_container {
