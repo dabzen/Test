@@ -194,4 +194,7 @@ section {
     section {
         padding: 1rem;
     }
+    #socials {
+        justify-content: center;
+    }
 }
