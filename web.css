@@ -180,6 +180,9 @@ section {
     .cont_container {
         width: 80%;
     }
+    #socials {
+        justify-content: center;
+    }
 }
 
 @media (max-width: 480px) {
